@@ -54,7 +54,7 @@ class _HomePageState extends State<HomePage> {
           onDismissed: (direction){
             print('direction: $direction');
             print('id: ${band.id}');
-            //TODO: lamar el borado en el server
+            //TODO: llamar el borado en el server
           },
           background: Container(
             padding: EdgeInsets.only(left: 8.0),
